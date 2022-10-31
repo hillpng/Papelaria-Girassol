@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -86,7 +89,7 @@ footer p {
 
 .input-padrao {
     border: 1px solid #707070;
-    border-radius: .4rem;
+    border-radius: .2rem;
     background: #FAFAFA;
     padding: 0.5rem;
     font-size: 1rem;
@@ -99,7 +102,7 @@ footer p {
     left: 16px;
     color: #707070;
     pointer-events: none;
-    transform: translateX(1rem) translateY(.5rem);
+    transform: translateX(1rem) translateY(.4rem);
     transition: 200ms cubic-bezier(.4, 0, 0.2, 1);
 }
 
