@@ -82,9 +82,13 @@ footer p {
 }
 
 /*Estilização do contato*/
+form {
+    padding: 24px 240px;
+}
+
 .input-group {
     position: relative;
-    margin-top: 1em;
+    margin-top: 1.2em;
 }
 
 .input-padrao {
@@ -92,9 +96,10 @@ footer p {
     border-radius: .2rem;
     background: #FAFAFA;
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #020E26;
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 50%;
 }
 
 .label-padrao {
@@ -102,7 +107,7 @@ footer p {
     left: 16px;
     color: #707070;
     pointer-events: none;
-    transform: translateX(1rem) translateY(.4rem);
+    transform: translateX(1rem) translateY(.7rem);
     transition: 200ms cubic-bezier(.4, 0, 0.2, 1);
 }
 
@@ -116,4 +121,23 @@ footer p {
     background-color: #FAFAFA;
     padding: 0 .2em;
     color: #169873;
+    font-weight: 500;
+}
+
+.botao-enviar {
+    width: 50%;
+    padding: .5rem;
+    background-color: #c2eabd;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #020E26;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.botao-enviar:hover {
+    background-color: #169873;
+    color: #FAFAFA;
 }
